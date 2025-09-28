@@ -74,7 +74,7 @@ animate()*/
 
 
 
-/*class Ball{
+class Ball{
     constructor(x,y) {
         this.r = 20   
         this.x = x || randomIntFromInterval (0+this.r,window.innerWidth-this.r)
@@ -133,7 +133,7 @@ animate()
 
 function randomIntFromInterval(min,max){
     return Math.floor(Math.random() * (max - min + 1) + min)
-}*/
+}
 
 
 
